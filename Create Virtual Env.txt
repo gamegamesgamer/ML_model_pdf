@@ -1,0 +1,16 @@
+1. pip install virtualenv #if virtual env not installed
+2. virtualenv envname #create a env
+3. in cmd go to Scripts and activate env
+  .\venv\Scripts\activate
+4.(env) this appera so you are in env
+5. deactivate for deactivate
+
+pip install gunicorn
+
+#to generate requirements.txt
+pip freeze > requirements.txt
+
+#to install requirements.txt
+pip install -r requirements.txt
+
+### All Are Do in Cmd at admin Mode
